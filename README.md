@@ -23,3 +23,8 @@ Pass the `CloudflareBindings` as generics when instantiation `Hono`:
 // src/index.ts
 const app = new Hono<{ Bindings: CloudflareBindings }>();
 ```
+
+## Acknowledgement
+
+- https://github.com/vinhphm/site-worker, https://vinh.dev/writing/dynamic-og-images-cloudflare-workers.html - My first reference when searching up
+  for running OG image generator on Cloudflare Workers.
