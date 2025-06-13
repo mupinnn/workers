@@ -3,6 +3,9 @@
   "name": "workers",
   "main": "src/index.ts",
   "compatibility_date": "2025-06-13",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
   "send_metrics": false,
   "workers_dev": false,
   "assets": {
